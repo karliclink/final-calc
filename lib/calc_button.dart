@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+// returns a widget representing a calculator button
 Widget calcButton(
     String buttonText, Color buttonColor, void Function()? buttonPressed) {
   return Container(
